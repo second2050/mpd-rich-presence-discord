@@ -53,7 +53,7 @@ Example: `mpd_discord_richpresence -h=127.0.0.1 -P=password -p=6606 --fork --no-
 * [discord-rpc](https://github.com/discordapp/discord-rpc)
 * libmpdclient
 
-A [build script](build.sh) is included.
+A [build script](build.sh) and a [PKGBUILD](PKGBUILD) is included.
 
 The CMakeFile will take care of finding discord-rpc. If it cannot find it, it will pull the discord-rpc GitHub repo and compile from source.
 
